@@ -9,7 +9,7 @@ let mesaage = age>18 ? "you are an adult" : "you are minor"
 // console.log(mesaage)
 
 message = age>=18 ? "you can drive":"you cannot drive"
-
+ 
 // console.log(message)
 
 let isRaining = false
