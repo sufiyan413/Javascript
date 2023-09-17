@@ -13,7 +13,7 @@
 // console.log(balance.toString());
 
 
-// console.log(balance.toFixed(1)); // precision value
+// console.log(balance.toFixed(2)); // precision value   1000.00
 
 
 // ********************************* MATHS ******************************************
