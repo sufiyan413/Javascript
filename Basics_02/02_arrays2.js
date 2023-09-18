@@ -64,12 +64,13 @@ console.log(Array.from("username"));
 //   ]
 
 let score1 = 100
-let score2 = 200
+let score2 = 200  
 let score3 = 300
 
-// agar in vribles ko array me convert karna ho to
+// agar in varibles ko array me convert karna ho to
 
 // of  Returns a new array from a set of elements.
 
 console.log(Array.of(score1,score2,score3));
 // output => [ 100, 200, 300 ]
+      

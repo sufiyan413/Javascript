@@ -103,3 +103,26 @@ console.log(otherHeros);
 
 console.log("C",heros);    // the splice method manuplate the original array
 //B [ 'shaktiman' ]       // see in original array the values are removed
+
+//_________________________________________________________________________________________________________________
+
+const myOriginalArray = ["A","B","C","D","E"];
+console.log(myOriginalArray);
+
+const myNewArray = myOriginalArray.slice(1,4)
+console.log(myNewArray);
+// output :=> copy of a section [ 'B', 'C', 'D' ] , without manupulating the orgignal array
+
+//__________________________________________________________________________________________________________________
+
+const alphabets = ["A","B","C","D","E"];
+alphabets.splice(2,2)
+console.log(alphabets);
+
+// i can add new elements
+
+const mixAlphabets = ["A","B","C","D","E"];
+mixAlphabets.splice(2,2,1,2)
+console.log(mixAlphabets);
+
+// _________________________________________________________________________________________________________________
