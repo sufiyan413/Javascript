@@ -61,12 +61,13 @@ JsUser.greeting = function(){
  console.log("hello js user");
 }
 
+console.log(JsUser.greeting());
+// hello js user
+
 JsUser.greetingTwo = function(){
     console.log(`hello js user,${this.name}`);
    }
 
-   console.log(JsUser.greeting());
-// hello js user
 console.log(JsUser.greetingTwo());
 // hello js user,sufiyan
 // undefined => ek excution apne aap ho jata h

@@ -8,7 +8,7 @@
 
 //  console.log(course.courseInstructor);
 //  // Munaf Hajir
-
+ 
 // destructuring
 
 const {courseInstructor} = course
