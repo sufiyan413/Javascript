@@ -73,4 +73,26 @@ let score3 = 300
 
 console.log(Array.of(score1,score2,score3));
 // output => [ 100, 200, 300 ]
+
+// array filter()
+
+var list = [
+
+    { type: 'fruit' , name : 'apple'},
+    { type: 'veg' , name : 'bhinddi'},
+    { type: 'fruit' , name : 'banana'},
+    { type: 'veg' , name : 'carrot'},
+    { type: 'fruit' , name : 'watermelon'},
+    { type: 'veg' , name : 'bhaji'},
+    { type: 'fruit' , name : 'orange'},
+    { type: 'veg' , name : 'loki'},
+    
+    ];
+    
+    // to filter out veg lis or fruit lis
+    
+    
+    var out = list.filter(el=>el.type ==='fruit');
+    
+    console.log(out);
       
