@@ -17,3 +17,13 @@ const maxValue = 6
 // i need exact value from 1 to 6
 
 console.log(Math.floor(Math.random()*(maxValue-minValue+1)+minValue));
+
+// ***************************************************************************
+
+var radius = 5;   // user input value of  radius
+
+var pi = 3.142;    // the value of pi is approximately 3.142
+
+var area = pi * radius*radius;
+
+console.log(`The area of circle is ${area}`);
