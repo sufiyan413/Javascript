@@ -6,7 +6,7 @@ const repoCount = 50
 // console.log(name + repoCount)  // syntax thoda sahi nhi lagta aise
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`); // string interpolation
-
+  
 
 // string declare karne ka ek aur tarika hai
 
