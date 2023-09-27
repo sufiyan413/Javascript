@@ -36,12 +36,12 @@ console.log(allNewHeros);
 
 // suppose mere pas ek array hai jiske andar ek aur array hai aur is array me ek aur array hai
 
-const list = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
+// const list = [1,2,3,[4,5,6],7,[6,7,[4,5]]]
 
 // mujhe is sab values ko ek array me lena hai
 
-const newList = list.flat(Infinity)
-console.log(newList);
+// const newList = list.flat(Infinity)
+// console.log(newList);
 // output =>
 //  [
 //   1, 2, 3, 4, 5,
@@ -76,7 +76,7 @@ console.log(Array.of(score1,score2,score3));
 
 // array filter()
 
-var list = [
+const list = [
 
     { type: 'fruit' , name : 'apple'},
     { type: 'veg' , name : 'bhinddi'},
@@ -87,12 +87,12 @@ var list = [
     { type: 'fruit' , name : 'orange'},
     { type: 'veg' , name : 'loki'},
     
-    ];
+    ]
     
     // to filter out veg lis or fruit lis
     
     
-    var out = list.filter(el=>el.type ==='fruit');
+    let fruitList = list.filter( (fruit) =>fruit.type === 'fruit')
     
-    console.log(out);
+    console.log(fruitList);
       
