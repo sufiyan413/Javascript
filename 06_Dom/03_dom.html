@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Leraning</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+    
+</body>
+<script>
+    // adding list item using function
+
+    function addLanguage(languageName){
+      //  Create a new list item element
+         const li =  document.createElement('li')
+         li.innerHTML=languageName
+
+ //  Find the HTML element with the class "language" and append (add) the newly created <li> element as its child
+         document.querySelector('.language').appendChild(li)
+         
+    }
+
+    addLanguage("python")
+    addLanguage("java")
+    addLanguage("ruby")
+
+    // styling
+    
+    const ul = document.querySelector('.language')
+    ul.style.listStyleType = "number"
+</script>
+</html>
