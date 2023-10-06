@@ -4,11 +4,13 @@ const form = document.querySelector('form');
 form.addEventListener('submit', function (event) {
   event.preventDefault();
 
-  const weight = document.querySelector('#weight').value.trim();
-  const height = document.querySelector('#height').value.trim();
+  const weight = document.querySelector('#weight').value;  // select input id
+  const height = document.querySelector('#height').value;
   const result = document.querySelector('#result');
 
-  if (weight === '' || weight <= 0) {
+ // validation
+ 
+  if (weight === '' || weight <= 0) {                 
 
     result.innerHTML = 'Please give a valid weight';
     result.style.color = 'red'
@@ -19,7 +21,7 @@ form.addEventListener('submit', function (event) {
     result.style.color = 'red'
 
   } else {
-    
+    // parseFloat:- jo value milti hai string me milti hai to parseFloat vo value ko int me pass karega
     const bmi = (parseFloat(weight) / ((parseFloat(height) * parseFloat(height)) / 10000)).toFixed(2);
 
     let category;
