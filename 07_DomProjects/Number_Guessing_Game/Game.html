@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="Game.css">
     <title>Number Guessing Game</title>
 </head>
@@ -30,19 +32,39 @@
 
     </div>
 
-    <form class="form">
-        <label for="guessField" id="guess">Guess a number</label>
-        <input type="text" id="guessField" class="guessField">
-        <input type="submit" id="sbmt" class="guessSubmit" value="submit guess">
+    <div class="main">
 
-    </form>
+        <form class="form">
+            <div class="waviy" id="guess">
+                <span style="--i:1">G</span>
+                <span style="--i:2">U</span>
+                <span style="--i:3">E</span>
+                <span style="--i:4">S</span>
+                <span style="--i:5">S</span>
+                <span class="space"> </span> 
+                <span style="--i:6">A</span>
+                <span class="space"> </span> 
+                <span style="--i:7">N</span>
+                <span style="--i:8">U</span>
+                <span style="--i:9">M</span>
+                <span style="--i:10">B</span>
+                <span style="--i:10">E</span>
+                <span style="--i:10">R</span>
+             
+               </div>
+            <!-- <label for="guessField" id="guess">Guess a number</label> -->
+            <input type="text" id="guessField" class="guessField">
+            <input type="submit" id="sbmt" class="guessSubmit" value="submit guess">
 
-    <div class="resultParas">
-        <p>Previous Gesses <span class="guesses"></span></p>
-        <p>Guesses Remaining</p>
-        <p class="lowOrHigh"></p>
+        </form>
+
+        <div class="resultParas">
+            <p>Previous Gesses : <span id="guesses"></span></p>
+            <p>Guesses Remaining : <span id="lastResult">10</span></p>
+            <p id="lowOrHigh"></p>
+        </div>
+
     </div>
-
 
 
 </body>
