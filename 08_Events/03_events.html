@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body style="text-align: center;">
+    <h1>Learning SetInterval</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+
+    // setInterval(function(){
+    //     // console.log("SUfiyan");
+    // },1000)
+
+    // const sayName = function(){
+    //     console.log("SUfiyan");
+    // }
+
+    // const intervalId = setInterval(sayName,2000)
+
+    // clearInterval(intervalId)
+
+    //***************************************************************************
+
+    const saySufiyan = function () {
+        console.log("Sufiyan");
+    }
+
+    let intervalId;
+
+    const startButton = document.querySelector("#start");
+    const stopButton = document.querySelector("#stop");
+
+    startButton.addEventListener('click', function () {
+
+        intervalId = setInterval(saySufiyan, 2000);
+
+    });
+
+    stopButton.addEventListener('click', function () {
+
+    clearInterval(intervalId); 
+    
+});
+
+
+
+</script>
+
+</html>
