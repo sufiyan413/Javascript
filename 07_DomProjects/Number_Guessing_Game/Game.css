@@ -4,8 +4,6 @@ body {
     padding: 0;
     background-color: #212121;
     color: #fff;
-
-
 }
 
 header {
@@ -23,12 +21,9 @@ header {
 .centre {
     display: flex;
     justify-content: center;
-
-
 }
 
 #banner {
-
     text-transform: uppercase;
     background-image: linear-gradient(-225deg,
             #fff 0%,
@@ -54,9 +49,7 @@ header {
     }
 }
 
-
-
- .container {
+.container {
     margin-top: 74px;
     letter-spacing: 3px;
     text-align: center;
@@ -174,6 +167,8 @@ marquee {
     color: #FF5722;
     margin-top: 10px;
 }
+
+
 
 
 /**********************************Responsive****************************************/
